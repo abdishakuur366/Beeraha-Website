@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">`
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>project 3/99 eduford | Education website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- -------about us content--------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest University</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Minus et atque, obcaecati officiis modi excepturi non dolorum illum,
+                    minima placeat unde. Hic repudiandae praesentium debitis iusto quidem 
+                    quod vel laborum quasi sunt, tempore, maiores sit nesciunt, quae 
+                    o dolorum dolorem. Deserunt, dolor illo eum facilis voluptatum pariatur . 
+                    Temporibus, vel perferendis. Officiis aliquam, sint unde quidem mollitia 
+                    beatae at deserunt error exercitationem odio eligendi eaque 
+                    dignissimos quam temporibus quasi magni accusantium adipisci suscipit!| I Am Hassan Nur Hassan</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Obcaecati nisi voluptatibus facere natus! Porro quasi dicta, <br>
+             possimus rem in inventore! Inventore molestiae eius laudantium quaerat?</p>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+        </div>
+        <p>Made With <i class="fas fa-heart"></i> By Easy Tutorials</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------Javascript for toggle menu----------------- -->
+    <script>
+        var linknav=document.getElementById("navlinks")
+        function showMenu(){
+            linknav.style.right="0"
+        }
+        function hideMenu(){
+            linknav.style.right="-200px"
+        }
+    </script>
+
+</body>
+</html>
